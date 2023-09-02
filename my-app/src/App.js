@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Jeg johnny tran har boom
+          Jeg johnny tran sier SIUUUU!
         </a>
       </header>
     </div>
