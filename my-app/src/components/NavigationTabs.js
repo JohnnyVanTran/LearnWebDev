@@ -3,6 +3,8 @@ import Box from '@mui/material/Box';
 import Tab from '@mui/material/Tab';
 import {TabContext, TabList, TabPanel} from '@mui/lab'
 import About from './About';
+import Contact from './Contact';
+import Hobby from './Hobby';
 
 export default function NavigationTabs() {
   const [value, setValue] = useState('1');
@@ -23,9 +25,9 @@ export default function NavigationTabs() {
           </TabList>
         </Box>
         <TabPanel value="1"><About/></TabPanel>
-        <TabPanel value="2">Item Two</TabPanel>
-        <TabPanel value="3">Item Three</TabPanel>
-        <TabPanel value="4">Item Four</TabPanel>
+        <TabPanel value="2">To be continued</TabPanel>
+        <TabPanel value="3"><Hobby/></TabPanel>
+        <TabPanel value="4"><Contact/></TabPanel>
       </TabContext>
     </Box>
   );
