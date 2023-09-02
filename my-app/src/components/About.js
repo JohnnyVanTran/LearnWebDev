@@ -5,8 +5,8 @@ import '../styles/About.css';
 export default function About() {
 
   return (
-    <div>
-        <img src={profile}/>
+    <div> 
+        <img src={profile} style={{borderRadius: "50%", width:"25%"}}/>
         <h1>Johnny V. Tran</h1>
         <h2> Litt om meg!</h2>
         <p> Mitt navn er Johnny, og jeg er en 20 år gammel gutt! </p>

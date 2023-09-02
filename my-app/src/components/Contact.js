@@ -12,7 +12,7 @@ export default function Contact() {
 
   return (
     <div>
-        <img src={profile}/>
+        <img src={profile} style={{borderRadius: "50%", width:"25%"}}/>
         <div>
             <p>Kontakt meg gjerne om det er ønsket med en uforpliktende prat over en kopp kaffe eller lunsj!</p>
         </div>
