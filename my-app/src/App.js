@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Jeg Johnny Tran skal lære react
+          Jeg johnny tran har boom
         </a>
       </header>
     </div>
