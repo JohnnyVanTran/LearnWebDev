@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './styles/App.css';
+import NavigationTabs from './components/NavigationTabs';
+import profile from './resources/profile.jpg'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Jeg johnny tran sier SIUUUU!
-        </a>
-      </header>
+      <div id="mainContainer">
+        <img src={profile}/>
+        <h1>Johnny Van Tran</h1>
+        <NavigationTabs/>
+      </div>
+        
     </div>
   );
 }
